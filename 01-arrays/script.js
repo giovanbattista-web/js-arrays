@@ -53,13 +53,12 @@ for (let i = 0; i <= 6; i++) {
 // 8. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
 for (let i = 0; i <= 6; i++) {
-  if (teachers[i].length == 0) {
+  if (teachers.length == 0) {
     console.log("array vuoto");
      } 
      else {
       console.log("nell'array sono presenti degli elementi");
      }
 }
-
-const isTeachersEmpty = null;
+const isTeachersEmpty = "nell'array sono presenti degli elementi";
 
