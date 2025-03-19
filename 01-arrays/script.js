@@ -8,8 +8,6 @@ const teachers = [
   'Luca'
 ]; // NON MODIFICARE QUESTA VARIABILE
 
-// console.log(teachers[3]);
-
 // 1. Utilizzando un indice sull'array teachers, cambia il valore della
 // variabile fourthTeacher qui sotto in modo che sia il quarto insegnante elencato nell'array
 const fourthTeacher = teachers[3];
@@ -54,5 +52,14 @@ for (let i = 0; i <= 6; i++) {
 */
 // 8. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
+for (let i = 0; i <= 6; i++) {
+  if (teachers[i].length == 0) {
+    console.log("array vuoto");
+     } 
+     else {
+      console.log("nell'array sono presenti degli elementi");
+     }
+}
+
 const isTeachersEmpty = null;
 
