@@ -34,8 +34,7 @@ for (let i = 0; i <= 6; i++) {
     console.log("Fabio non è presente nell'array");
   }
 }
-
-const isFabioPresent = null;
+const isFabioPresent = "Fabio è presente nell'array";
 
 // 5. Unisci tutti gli insegnanti nell'array teachers in una stringa  separata da virgole e salvala nella variabile teachersString
 const teachersString = null;
