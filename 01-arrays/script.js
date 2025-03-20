@@ -45,20 +45,34 @@ for (let i = 0; i <= 6; i++) {
   }
 
 }
-/* BONUS : 
-1 CREA UN CICLO CHE STAMPA I NUMERI DA 0 A 6 
-2 CREA UN CICLO CHE STAMPA I TEACHERS IN POSIZIONE DA 0 A 6 
-3 CREA UN CICLO CHE STAMPA ENTRAMBI. ESEMPIO 0 MARIO 1 PEPPE ECC...
-*/
+
 // 8. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
 for (let i = 0; i <= 6; i++) {
   if (teachers.length == 0) {
     console.log("array vuoto");
-     } 
-     else {
-      console.log("nell'array sono presenti degli elementi");
-     }
+  }
+  else {
+    console.log("nell'array sono presenti degli elementi");
+  }
 }
 const isTeachersEmpty = "nell'array sono presenti degli elementi";
+
+
+// 1 CREA UN CICLO CHE STAMPA I NUMERI DA 0 A 6 
+// 2 CREA UN CICLO CHE STAMPA I TEACHERS IN POSIZIONE DA 0 A 6 
+// 3 CREA UN CICLO CHE STAMPA ENTRAMBI. ESEMPIO 0 MARIO 1 PEPPE ECC...
+
+for (let i = 0; i <= 6; i++) {
+  console.log(i);
+} 
+
+for (let i = 0; i <= 6; i++) {
+  console.log(teachers[i]);
+}
+
+for (let i = 0; i <= 6; i++) {
+  console.log(teachers);
+} 
+
 
