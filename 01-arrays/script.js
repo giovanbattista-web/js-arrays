@@ -47,32 +47,13 @@ console.log(lewisIndex);
 
 // 8. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty =  teachers.length === 0;
-if (isTeachersEmpty){
+const isTeachersEmpty = teachers.length === 0;
+if (isTeachersEmpty) {
   console.log(`L'array è vuoto: ${isTeachersEmpty}`);
 }
-else 
-{
+else {
   console.log(`L'array non è vuoto: ${isTeachersEmpty}`);
 }
-  
 
-
-// 1 CREA UN CICLO CHE STAMPA I NUMERI DA 0 A 6 
-// 2 CREA UN CICLO CHE STAMPA I TEACHERS IN POSIZIONE DA 0 A 6 
-// 3 CREA UN CICLO CHE STAMPA ENTRAMBI. ESEMPIO 0 MARIO 1 PEPPE ECC...
-/*
-for (let i = 0; i <= 6; i++) {
-  console.log(i);
-}
-
-for (let i = 0; i <= 6; i++) {
-  console.log(teachers[i]);
-}
-
-for (let i = 0; i <= 6; i++) {
-  console.log(teachers);
-}
-*/
 
 
